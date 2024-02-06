@@ -1,0 +1,20 @@
+.Navbar {
+    background-color: #5053de;
+    color: white;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Navbar h1 {
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-family: "Erica One", sans-serif;
+}
+
+.Navbar img {
+    width: 60px;
+}
