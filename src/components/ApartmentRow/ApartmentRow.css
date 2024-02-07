@@ -1,0 +1,31 @@
+.ApartmentRow {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ApartmentRow figure {
+    width: 10%;
+}
+
+.ApartmentRow .info {
+    width: 80%;
+}
+
+.ApartmentRow .info>p {
+    margin-bottom: 7px;
+    margin-top: 0;
+}
+
+.ApartmentRow .details {
+    font-size: .8em;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.ApartmentRow .details p {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
