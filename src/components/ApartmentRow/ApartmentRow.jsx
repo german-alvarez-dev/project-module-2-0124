@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ApartmentRow.css'
 
 const ApartmentRow = props => {
@@ -13,7 +14,9 @@ const ApartmentRow = props => {
             </figure>
 
             <article className="info">
-                <p><strong>{apartment.name}</strong></p>
+                <Link to={`/details/${apartment.id}`}>
+                    <p><strong>{apartment.name}</strong></p>
+                </Link>
                 <div className="details">
                     <p>{apartment.price}€/noche | {apartment.bedrooms} habitaciones | {apartment.bathrooms} baños </p>
                     <p>
