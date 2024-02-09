@@ -1,5 +1,4 @@
 import { Link, Navigate, useParams } from 'react-router-dom'
-import './DetailsPage.css'
 import apartmentsData from './../../apartments-data.json'
 
 const DetailsPage = () => {
